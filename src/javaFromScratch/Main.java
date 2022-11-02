@@ -1,14 +1,17 @@
 package javaFromScratch;
 
+import static java.lang.System.out;
 import javaFromScratch.entities.ProductsStock;
 import javaFromScratch.MathProblems;
 import javaFromScratch.DataInput;
 import javaFromScratch.entities.OrderStatus;
-
 import java.util.Locale;
 import java.util.Scanner;
 
-import static java.lang.System.out;
+import javaFromScratch.MathProblems;
+import javaFromScratch.entities.OrderStatus;
+import javaFromScratch.entities.ProductsStock;
+import javaFromScratch.entities.enums.OrderStatusEnum;
 
 public class Main {
 
@@ -26,11 +29,11 @@ public class Main {
     }
 
     public static void main(String[] args) { // aqui é o entry point do algoritmo Java, veja o init()
-        // init();
+        init();
         // printMathProblems();
         // printInputtedData();
         // printProductsStock();
-        printUsingEnum();
+        // printUsingEnum();
     }
 
     public static void init() {
