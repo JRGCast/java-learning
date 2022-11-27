@@ -1,13 +1,14 @@
 package javaFromScratch;
 
-import javaFromScratch.entities.Triangle;
-import javaFromScratch.entities.Vectors01;
-import javaFromScratch.entities.Vectors02;
-import javaFromScratch.utils.Calculator;
+import static java.lang.System.in;
+import static java.lang.System.out;
 
 import java.util.Scanner;
 
-import static java.lang.System.*;
+import javaFromScratch.entities.mathRelated.Triangle;
+import javaFromScratch.entities.mathRelated.Vectors01;
+import javaFromScratch.entities.mathRelated.Vectors02;
+import javaFromScratch.utils.Calculator;
 
 public class MathProblems {
 

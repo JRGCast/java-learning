@@ -1,5 +1,9 @@
 package javaFromScratch.entities;
 
+import java.util.Date;
+
+import javaFromScratch.utils.enums.OrderStatusEnum;
+  
 public class OrderStatus{
   private Integer id;
   private Date moment;

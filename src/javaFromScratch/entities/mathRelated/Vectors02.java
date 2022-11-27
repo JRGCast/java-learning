@@ -1,4 +1,4 @@
-package javaFromScratch.entities;
+package javaFromScratch.entities.mathRelated;
 
 public class Vectors02 {
     private String productName;
