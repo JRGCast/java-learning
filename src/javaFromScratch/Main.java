@@ -12,6 +12,7 @@ import javaFromScratch.entities.accountsRelated.BankAccount;
 import javaFromScratch.entities.accountsRelated.PJAccount;
 import javaFromScratch.entities.accountsRelated.SavingsAccount;
 import javaFromScratch.utils.FileHandlerClass;
+import javaFromScratch.utils.HandlerException;
 import javaFromScratch.utils.enums.OrderStatusEnum;
 
 public class Main {
@@ -23,15 +24,20 @@ public class Main {
     }
 
     public static void main(String[] args) { // aqui é o entry point do algoritmo Java, veja o init()
-        init();
-        // printMathProblems();
-        // printInputtedData();
-        // printProductsStock();
-        // printUsingEnum();
-        // bankAccounts("upcasting");
-        // bankAccounts("override");
-        // exceptionsBreak(false);
-        tryFileHandler("listDir"); // "scanner/tryCatchSimple/tryCatchResource/writeNew/writeAppend/listDir/newDir"
+        try {     
+            // init();
+            // printMathProblems();
+            // printInputtedData();
+            // printProductsStock();
+            // printUsingEnum();
+            // bankAccounts("upcasting");
+            // bankAccounts("override");
+            exceptionsBreak("goodMethod");
+            // tryFileHandler("listDir"); //
+            // "scanner/tryCatchSimple/tryCatchResource/writeNew/writeAppend/listDir/newDir"
+        } catch (RuntimeException e) {
+            System.out.println("Unexpected Error");
+        }
     }
 
     public static void init() {
@@ -169,12 +175,31 @@ public class Main {
 
     }
 
-    public static void exceptionsBreak(Boolean breakOrNot) {
+    public static void exceptionsBreak(String breakOrNot) {
         Exceptions exc = new Exceptions();
-        if (breakOrNot) {
-            exc.breakApp();
+        switch (breakOrNot) {
+            case "break":
+                exc.breakApp();
+                break;
+            case "tryCatch":
+
+                exc.tryCatched();
+                break;
+            case "goodMethod":
+                try {
+                    exc.theGoodMethod("Hey yah!");
+                } catch (HandlerException e) {
+                    // handling exception
+                    System.out.println("Error thrown:");
+                    System.out.println(e);
+                }
+                break;
+            default:
+                System.out.println("Pick 'break', 'tryCatch' or 'goodMethod'");
+                break;
+        }
+        if (breakOrNot == "break") {
         } else {
-            exc.tryCatched();
         }
     }
 

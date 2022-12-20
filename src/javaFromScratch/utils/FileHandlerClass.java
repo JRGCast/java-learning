@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class FileHandlerClass {
   private Scanner sc = null; // também lê textos e arquivos
   private File file = new File("files/file01.txt"); // representação abstrata de um arquivo e seu caminho
+  // A classe File possui UMA PENCA de gets e outras coisas, desde nome até o tamanho do arquivo, e muito mais
 
   private FileReader fileReader = null; // stream de leitura de caracteres a partir de arquivos
   private BufferedReader bufferedReader = null; // é instanciado a partir do fileReader, e possui algumas otimizações de
