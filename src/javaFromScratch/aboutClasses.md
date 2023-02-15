@@ -61,3 +61,8 @@ y.withdraw(50.0); // comportamento diferente do acima
 * java.lang.Exception - o compilador obriga a tratar ou propagar
 * java.lang.RuntimeException - o compilador não obriga a tratar ou propagar
 * Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em execução, até que seja capturada (tratada) ou o programa seja encerrado
+
+### Interfaces
+- Interfaces estabelecem os 'moldes' das classes, podemos dizer que estabelece um 'contrato' que a classe deve cumprir;
+- Tem como objetivo criar um sistema com baixo acoplamento e flexível;
+- 
