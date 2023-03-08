@@ -11,6 +11,7 @@ import javaFromScratch.entities.ProductsStock;
 import javaFromScratch.entities.accountsRelated.BankAccount;
 import javaFromScratch.entities.accountsRelated.PJAccount;
 import javaFromScratch.entities.accountsRelated.SavingsAccount;
+import javaFromScratch.services.ListHandler;
 import javaFromScratch.utils.FileHandlerClass;
 import javaFromScratch.utils.HandlerException;
 import javaFromScratch.utils.enums.OrderStatusEnum;
@@ -24,7 +25,7 @@ public class Main {
     }
 
     public static void main(String[] args) { // aqui é o entry point do algoritmo Java, veja o init()
-        try {     
+        try {
             // init();
             // printMathProblems();
             // printInputtedData();
@@ -32,9 +33,10 @@ public class Main {
             // printUsingEnum();
             // bankAccounts("upcasting");
             // bankAccounts("override");
-            exceptionsBreak("goodMethod");
+            // exceptionsBreak("goodMethod");
             // tryFileHandler("listDir"); //
             // "scanner/tryCatchSimple/tryCatchResource/writeNew/writeAppend/listDir/newDir"
+            generics();
         } catch (RuntimeException e) {
             System.out.println("Unexpected Error");
         }
@@ -232,5 +234,16 @@ public class Main {
             default:
                 break;
         }
+    }
+
+    public static void generics() {
+        ListHandler<Integer> numList = new ListHandler<>();
+        ListHandler<Double> dList = new ListHandler<>();
+        ListHandler<String> strList = new ListHandler<>();
+
+        // veja que só é possível adicionar à lista o mesmo tipo que foi instanciada
+        numList.addTolist(0);
+        dList.addTolist(1.0);
+        strList.addTolist("John");
     }
 }

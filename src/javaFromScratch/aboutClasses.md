@@ -65,4 +65,8 @@ y.withdraw(50.0); // comportamento diferente do acima
 ### Interfaces
 - Interfaces estabelecem os 'moldes' das classes, podemos dizer que estabelece um 'contrato' que a classe deve cumprir;
 - Tem como objetivo criar um sistema com baixo acoplamento e flexível;
+
+### Tipos Generics
+- Permite que classes, interfaces e métodos sejam parametrizados por seus tipos;
+- Reuso, type safety, performance;
 - 
