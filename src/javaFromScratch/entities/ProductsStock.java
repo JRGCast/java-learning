@@ -1,14 +1,26 @@
 package javaFromScratch.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ProductsStock {
     public String productName;
     public Double productPrice;
     public Integer productQuantity;
 
+    public List<Product> productsList = new ArrayList<>();
+
     public ProductsStock(String productName, Double productPrice, Integer productQuantity) {
         this.productName = productName;
         this.productPrice = productPrice;
         this.productQuantity = productQuantity;
+    }
+
+    public ProductsStock(Product product) {
+        this.productName = product.getName();
+        this.productPrice = product.getPrice();
+        this.productQuantity = 1;
+        addProductToStock(product);
     }
 
     public void getTotalStockNValue() {
@@ -44,6 +56,13 @@ public class ProductsStock {
         return productQuantity;
     }
 
+    public void addProductToStock(Product product) {
+        this.productsList.add(product);
+    }
+
+    public List<Product> getProductList() {
+        return this.productsList;
+    }
 
 //    para não gerar inconsistência, é bom que não seja possível alterar diretamente a quantidade, já que isso é feito com compras e vendas
 //    public void setProductQuantity(Integer productQuantity) {
