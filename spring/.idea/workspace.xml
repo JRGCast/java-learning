@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f17d28d-de90-46e6-b8c0-f9d1f39b5d96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/annotations/ProfileDEVAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/annotations/ProfilePRODAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/config/BeanConsoleDEVConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/config/BeanConsolePRODConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/config/MyBeansConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/console/ConsoleENV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/console/ConsoleEnvorimentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/controllers/ClientsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/domain/entity/ClientEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/domain/entity/OrderByClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/domain/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/domain/entity/ProductsOrdered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/domain/repository/ClientsRepositoryDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/model/ClientModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/services/ClientsServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/resources/application-development.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/resources/application-production.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springfirststeps/src/main/resources/my_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/HelloResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/SpringfirststepsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/SpringfirststepsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springfirststeps/src/main/java/com/ford/jrgc/springfirststeps/controllers/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springfirststeps/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springfirststeps/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springfirststeps/src/test/java/com/ford/jrgc/springfirststeps/controllers/HelloControllerTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ecobootfirststeps" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24bSNbLSzWQB9DXMoVrTKOKGFzm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecobootfirststeps" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f17d28d-de90-46e6-b8c0-f9d1f39b5d96" name="Changes" comment="" />
+      <created>1643897760809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643897760809</updated>
+      <workItem from="1643897769897" duration="1248000" />
+      <workItem from="1645442197378" duration="259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
